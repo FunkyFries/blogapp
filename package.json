@@ -1,0 +1,27 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "Blogging App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunkyFries/blogapp.git"
+  },
+  "author": "Ryan Leach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FunkyFries/blogapp/issues"
+  },
+  "homepage": "https://github.com/FunkyFries/blogapp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-sanitizer": "^1.0.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.2.15"
+  }
+}
